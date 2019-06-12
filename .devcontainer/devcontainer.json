@@ -1,0 +1,9 @@
+{
+  "name": "Node.js Sample",
+  "dockerFile": "Dockerfile",
+  "appPort": 4200,
+  "extensions": [
+      "dbaeumer.vscode-eslint"
+  ],
+  "postCreateCommand": "npm install"
+}
