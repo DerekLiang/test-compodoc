@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "buildDoc": "compodoc -p src/tsconfig.app.json",
-    "serveDoc": "compodoc -p src/tsconfig.app.json -w -s -r 5001",
+    "serveDoc": "compodoc -p src/tsconfig.app.json -w -s -r 5001 --navTabConfig=\"[{\\\"id\\\":\\\"info\\\",\\\"label\\\":\\\"Info\\\"}]\"",
     "start": "ng serve --host 0.0.0.0",
     "build": "ng build",
     "test": "ng test",
